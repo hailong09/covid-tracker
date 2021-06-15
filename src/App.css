@@ -1,0 +1,72 @@
+.App{
+    position: relative;
+}
+
+.header{
+    z-index: 9999;
+}
+.header-item,#basic-nav-dropdown{
+    font-size: 14px;
+    font-weight: 700!important;
+    color: #333!important;
+}
+
+
+.header-item:hover,
+#basic-nav-dropdown:hover{
+    color: #7B6FFF!important;
+}
+
+
+#basic-nav-dropdown{
+    padding-left: 0;
+}
+
+.navbar-collapse, .collapse{
+    justify-content: flex-end;
+}
+
+.content-body{
+    margin-left: 0px;
+    margin-top: 100px;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 1200px){
+.container-fluid {
+    max-width: 85%;
+}
+
+}
+
+
+.mapboxgl-ctrl, .mapboxgl-ctrl-attrib {
+    display: none;
+}
+
+div .card{
+
+    border: none;
+}
+
+.mapboxgl-popup-content > p{
+    margin: 0;
+}
+.mapboxgl-popup-content > div {
+    display: flex;
+    align-items: center;
+}
+.mapboxgl-popup-content > div > img{
+    width: 15px;
+    height: 12px;
+  
+}
+.mapboxgl-popup-content > div > span {
+    margin-left: 5px;
+}
